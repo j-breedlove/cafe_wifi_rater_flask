@@ -13,17 +13,19 @@ A Flask web application that allows users to add and view café reviews.
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/j-breedlove/cafe_wifi_rater_flask.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd cafe-review-app
+   cd cafe_wifi_rater_flask
    ```
 
 3. Install the required dependencies:
    ```
-   pip install -r requirements.txt
+   pip install pipenv
+   pipenv install
+   pipenv shell
    ```
 
 4. Run the application:
